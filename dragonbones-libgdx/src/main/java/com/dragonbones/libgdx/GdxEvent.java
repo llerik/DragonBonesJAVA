@@ -10,7 +10,7 @@ import com.dragonbones.libgdx.compat.EgretEvent;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Egret 事件。
+ * Egret event.
  *
  * @version DragonBones 4.5
  * @language zh_CN

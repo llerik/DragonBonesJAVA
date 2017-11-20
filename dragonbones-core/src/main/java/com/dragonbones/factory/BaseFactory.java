@@ -20,7 +20,7 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * 创建骨架的基础工厂。 (通常只需要一个全局工厂实例)
+ * Foundations of the skeleton of the factory. (Usually only need a global factory instance)
  *
  * @version DragonBones 3.0
  * @language zh_CN
@@ -39,8 +39,10 @@ public abstract class BaseFactory {
      */
     protected static BinaryDataParser _binaryParser = null;
     /**
-     * 是否开启共享搜索。
-     * 如果开启，创建一个骨架时，可以从多个龙骨数据中寻找骨架数据，或贴图集数据中寻找贴图数据。 (通常在有共享导出的数据时开启)
+     * Whether to open the shared search.
+     * When on, when creating a skeleton,
+     * you can look for skeletal data from multiple keel data or find texture data from the texture data.
+     * (Usually open when sharing exported data)
      *
      * @version DragonBones 4.5
      * @language zh_CN
@@ -70,9 +72,9 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 创建一个工厂。 (通常只需要一个全局工厂实例)
+     * Create a factory. (Usually only need a global factory instance)
      *
-     * @param dataParser 龙骨数据解析器，如果不设置，则使用默认解析器。
+     * @param dataParser Keel data parser, if not set, then use the default parser.
      * @version DragonBones 3.0
      * @language zh_CN
      */
@@ -410,10 +412,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 解析并添加龙骨数据。
+     * Analyze and add keel data.
      *
-     * @param rawData 需要解析的原始数据。
-     * @param name    为数据提供一个名称，以便可以通过这个名称获取数据，如果未设置，则使用数据中的名称。
+     * @param rawData Raw data to parse
+     * @param name    Give the data a name so that data can be obtained by this name, or, if not, the name in the data.
      * @returns DragonBonesData
      * @version DragonBones 4.5
      * @language zh_CN
@@ -453,13 +455,13 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 解析并添加贴图集数据。
+     * Parse and add mapset data.
      *
-     * @param rawData      需要解析的原始数据。 (JSON)
-     * @param textureAtlas 贴图。
-     * @param name         为数据指定一个名称，以便可以通过这个名称获取数据，如果未设置，则使用数据中的名称。
-     * @param scale        为贴图集设置一个缩放值。
-     * @returns 贴图集数据
+     * @param rawData      Raw data to parse (JSON)
+     * @param textureAtlas Stickers.
+     * @param name         Give the data a name so that data can be obtained by this name, or, if not, the name in the data.
+     * @param scale        Set a zoom value for the sticker album.
+     * @returns Atlas data
      * @version DragonBones 4.5
      * @language zh_CN
      * @see #getTextureAtlasData(String)
@@ -492,9 +494,9 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 获取指定名称的龙骨数据。
+     * Get the keel data for the specified name.
      *
-     * @param name 数据名称。
+     * @param name Data name.
      * @returns DragonBonesData
      * @version DragonBones 3.0
      * @language zh_CN
@@ -513,10 +515,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 添加龙骨数据。
+     * Add keel data.
      *
-     * @param data 龙骨数据。
-     * @param name 为数据指定一个名称，以便可以通过这个名称获取数据，如果未设置，则使用数据中的名称。
+     * @param data Keel data.
+     * @param name Give the data a name so that data can be obtained by this name, or, if not, the name in the data.
      * @version DragonBones 3.0
      * @language zh_CN
      * @see #parseDragonBonesData(Object, String, float)
@@ -543,10 +545,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 移除龙骨数据。
+     * Remove keel data.
      *
-     * @param name        数据名称。
-     * @param disposeData 是否释放数据。
+     * @param name        Data name.
+     * @param disposeData Whether to release the data.
      * @version DragonBones 3.0
      * @language zh_CN
      * @see #parseDragonBonesData(Object, String, float)
@@ -565,10 +567,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 获取指定名称的贴图集数据列表。
+     * Gets the map data for the specified name.
      *
-     * @param name 数据名称。
-     * @returns 贴图集数据列表。
+     * @param name Data name.
+     * @returns Atlas data list.
      * @version DragonBones 3.0
      * @language zh_CN
      * @see #parseTextureAtlasData(Object, Object, String, float)
@@ -585,10 +587,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 添加贴图集数据。
+     * Add map data.
      *
-     * @param data 贴图集数据。
-     * @param name 为数据指定一个名称，以便可以通过这个名称获取数据，如果未设置，则使用数据中的名称。
+     * @param data Atlas data.
+     * @param name Give the data a name so that data can be obtained by this name, or, if not, the name in the data.
      * @version DragonBones 3.0
      * @language zh_CN
      * @see #parseTextureAtlasData(Object, Object, String, float)
@@ -613,10 +615,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 移除贴图集数据。
+     * Remove the artwork data.
      *
-     * @param name        数据名称。
-     * @param disposeData 是否释放数据。
+     * @param name        Data name.
+     * @param disposeData Whether to release the data.
      * @version DragonBones 3.0
      * @language zh_CN
      * @see #parseTextureAtlasData(Object, Object, String, float)
@@ -643,10 +645,10 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 获取骨架数据。
+     * Get skeleton data.
      *
-     * @param name            骨架数据名称。
-     * @param dragonBonesName 龙骨数据名称。
+     * @param name            Skeleton data name.
+     * @param dragonBonesName Keel data name.
      * @version DragonBones 5.1
      * @language zh_CN
      * @see ArmatureData
@@ -666,9 +668,9 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 清除所有的数据。
+     * Clear all data.
      *
-     * @param disposeData 是否释放数据。
+     * @param disposeData Whether to release the data.
      * @version DragonBones 4.5
      * @language zh_CN
      */
@@ -699,13 +701,15 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 创建一个骨架。
+     * Create a skeleton.
      *
-     * @param armatureName     骨架数据名称。
-     * @param dragonBonesName  龙骨数据名称，如果未设置，将检索所有的龙骨数据，当多个龙骨数据中包含同名的骨架数据时，可能无法创建出准确的骨架。
-     * @param skinName         皮肤名称，如果未设置，则使用默认皮肤。
-     * @param textureAtlasName 贴图集数据名称，如果未设置，则使用龙骨数据名称。
-     * @returns 骨架
+     * @param armatureName     Skeleton data name.
+     * @param dragonBonesName  If the name of the keel data is not set, all the keel data will be retrieved.
+     *                         When multiple keel data contain the data of the same name,
+     *                         it may not be able to create an accurate skeleton.
+     * @param skinName         Skin name, if not set, the default skin is used.
+     * @param textureAtlasName Atlas data name, if not set, then use keel data name.
+     * @returns skeleton
      * @version DragonBones 3.0
      * @language zh_CN
      * @see ArmatureData
@@ -738,14 +742,16 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 用指定资源替换指定插槽的显示对象。(用 "dragonBonesName/armatureName/slotName/displayName" 的资源替换 "slot" 的显示对象)
+     * Replaces the display object for the specified slot with the specified resource.
+     * (Replace the display object of "slot" with a resource of "dragonBonesName/armatureName/slotName/displayName")
      *
-     * @param dragonBonesName 指定的龙骨数据名称。
-     * @param armatureName    指定的骨架名称。
-     * @param slotName        指定的插槽名称。
-     * @param displayName     指定的显示对象名称。
-     * @param slot            指定的插槽实例。
-     * @param displayIndex    要替换的显示对象的索引，如果未设置，则替换当前正在显示的显示对象。
+     * @param dragonBonesName The specified keel data name.
+     * @param armatureName    The specified skeleton name.
+     * @param slotName        Specified slot name.
+     * @param displayName     The specified display object name.
+     * @param slot            Specified slot instance.
+     * @param displayIndex    The index of the display object to be replaced, if not set,
+     *                        the display object currently being displayed is replaced.
      * @version DragonBones 4.5
      * @language zh_CN
      */
@@ -781,12 +787,12 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 用指定资源列表替换插槽的显示对象列表。
+     * Replaces the slot's display object list with the specified resource list.
      *
-     * @param dragonBonesName 指定的 DragonBonesData 名称。
-     * @param armatureName    指定的骨架名称。
-     * @param slotName        指定的插槽名称。
-     * @param slot            指定的插槽实例。
+     * @param dragonBonesName The specified DragonBonesData name.
+     * @param armatureName    The specified skeleton name.
+     * @param slotName        Specified slot name.
+     * @param slot            Specified slot instance.
      * @version DragonBones 4.5
      * @language zh_CN
      */
@@ -825,11 +831,11 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 更换骨架皮肤。
+     * Change the skeleton skin.
      *
-     * @param armature 骨架。
-     * @param skin     皮肤数据。
-     * @param exclude  不需要更新的插槽。
+     * @param armature skeleton.
+     * @param skin     Skin data.
+     * @param exclude  No need for updated slots.
      * @version DragonBones 5.1
      * @language zh_CN
      * @see Armature
@@ -868,14 +874,15 @@ public abstract class BaseFactory {
     }
 
     /**
-     * 将骨架的动画替换成其他骨架的动画。 (通常这些骨架应该具有相同的骨架结构)
+     * Animations that replace skeleton animation with other skeletons.
+     * (Usually these skeletons should have the same skeleton structure)
      *
-     * @param toArmature               指定的骨架。
-     * @param fromArmatreName          其他骨架的名称。
-     * @param fromSkinName             其他骨架的皮肤名称，如果未设置，则使用默认皮肤。
-     * @param fromDragonBonesDataName  其他骨架属于的龙骨数据名称，如果未设置，则检索所有的龙骨数据。
-     * @param replaceOriginalAnimation 是否替换原有的同名动画。
-     * @returns 是否替换成功。
+     * @param toArmature               Specified skeleton.
+     * @param fromArmatreName          Other skeleton's name.
+     * @param fromSkinName             The skin name of the other skeleton, if not set, the default skin is used.
+     * @param fromDragonBonesDataName  Other skeletons belong to the keel data name, if not set, then retrieve all the keel data.
+     * @param replaceOriginalAnimation Whether to replace the original animation of the same name.
+     * @returns Whether the replacement is successful.
      * @version DragonBones 4.5
      * @language zh_CN
      * @see Armature

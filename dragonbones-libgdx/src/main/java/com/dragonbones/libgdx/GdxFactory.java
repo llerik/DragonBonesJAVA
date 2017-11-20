@@ -20,7 +20,7 @@ import com.dragonbones.util.Console;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Egret 工厂。
+ * Egret factory.
  *
  * @version DragonBones 3.0
  * @language zh_CN
@@ -40,7 +40,7 @@ public class GdxFactory extends BaseFactory {
     }
 
     /**
-     * 一个可以直接使用的全局 WorldClock 实例。(由引擎驱动)
+     * A global WorldClock instance that you can use directly. (Engine driven)
      *
      * @version DragonBones 5.0
      * @language zh_CN
@@ -50,7 +50,7 @@ public class GdxFactory extends BaseFactory {
     }
 
     /**
-     * 一个可以直接使用的全局工厂实例。
+     * A direct use of the global factory instance.
      *
      * @version DragonBones 4.7
      * @language zh_CN
@@ -136,13 +136,14 @@ public class GdxFactory extends BaseFactory {
     }
 
     /**
-     * 创建一个指定名称的骨架。
+     * Create a skeleton of the specified name.
      *
-     * @param armatureName     骨架名称。
-     * @param dragonBonesName  龙骨数据名称，如果未设置，将检索所有的龙骨数据，如果多个数据中包含同名的骨架数据，可能无法创建出准确的骨架。
-     * @param skinName         皮肤名称，如果未设置，则使用默认皮肤。
-     * @param textureAtlasName 贴图集数据名称，如果未设置，则使用龙骨数据。
-     * @returns 骨架的显示容器。
+     * @param armatureName     Skeleton name.
+     * @param dragonBonesName  If the name of the keel data is not set, all the keel data will be retrieved.
+     *                         If multiple data contain the data of the same name, it may not be able to create an accurate skeleton.
+     * @param skinName         Skin name, if not set, the default skin is used.
+     * @param textureAtlasName Atlas data name, if not set, then keel data.
+     * @returns Skeleton display container.
      * @version DragonBones 4.5
      * @language zh_CN
      * @see GdxArmatureDisplay
@@ -164,10 +165,10 @@ public class GdxFactory extends BaseFactory {
     }
 
     /**
-     * 获取带有指定贴图的显示对象。
+     * Gets the display object with the specified map.
      *
-     * @param textureName      指定的贴图名称。
-     * @param textureAtlasName 指定的贴图集数据名称，如果未设置，将检索所有的贴图集数据。
+     * @param textureName      The name of the specified texture.
+     * @param textureAtlasName The specified album data name, if not set, will retrieve all the album data.
      * @version DragonBones 3.0
      * @language zh_CN
      */
@@ -186,7 +187,7 @@ public class GdxFactory extends BaseFactory {
     }
 
     /**
-     * 获取全局声音事件管理器。
+     * Get global sound event manager.
      *
      * @version DragonBones 4.5
      * @language zh_CN
