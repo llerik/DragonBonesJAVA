@@ -9,7 +9,6 @@ import org.jetbrains.annotations.Nullable;
  * 骨骼数据。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class BoneData extends BaseObject {
     /**

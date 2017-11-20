@@ -13,7 +13,6 @@ import com.dragonbones.util.Array;
  *
  * @version DragonBones 5.0
  * @beta
- * @language zh_CN
  * @see AnimationState
  */
 public class AnimationConfig extends BaseObject {

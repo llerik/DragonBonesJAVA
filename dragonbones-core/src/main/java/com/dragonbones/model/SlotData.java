@@ -10,7 +10,6 @@ import org.jetbrains.annotations.Nullable;
  * 插槽数据。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see Slot
  */
 public class SlotData extends BaseObject {

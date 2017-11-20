@@ -8,7 +8,6 @@ import org.jetbrains.annotations.Nullable;
  * WorldClock 提供时钟支持，为每个加入到时钟的 IAnimatable 对象更新时间。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see IAnimatable
  * @see Armature
  */

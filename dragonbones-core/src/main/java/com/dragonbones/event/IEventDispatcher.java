@@ -6,7 +6,6 @@ import java.util.function.Consumer;
  * 事件接口。
  *
  * @version DragonBones 4.5
- * @language zh_CN
  */
 public interface IEventDispatcher {
     /**

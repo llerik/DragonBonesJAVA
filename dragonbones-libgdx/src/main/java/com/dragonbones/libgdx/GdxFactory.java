@@ -23,7 +23,6 @@ import org.jetbrains.annotations.Nullable;
  * Egret factory.
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class GdxFactory extends BaseFactory {
     private static float _time = 0;

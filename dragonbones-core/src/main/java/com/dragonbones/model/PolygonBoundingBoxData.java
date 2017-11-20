@@ -9,7 +9,6 @@ import org.jetbrains.annotations.Nullable;
  * 多边形边界框。
  *
  * @version DragonBones 5.1
- * @language zh_CN
  */
 public class PolygonBoundingBoxData extends BoundingBoxData {
     public static int polygonIntersectsSegment(

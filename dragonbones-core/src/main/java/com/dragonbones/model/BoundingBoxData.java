@@ -9,7 +9,6 @@ import org.jetbrains.annotations.Nullable;
  * 边界框数据基类。
  *
  * @version DragonBones 5.0
- * @language zh_CN
  */
 public abstract class BoundingBoxData extends BaseObject {
     /**

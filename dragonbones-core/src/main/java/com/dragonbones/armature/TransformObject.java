@@ -10,7 +10,6 @@ import org.jetbrains.annotations.Nullable;
  * 基础变换对象。
  *
  * @version DragonBones 4.5
- * @language zh_CN
  */
 public abstract class TransformObject extends BaseObject {
     /**

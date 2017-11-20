@@ -11,7 +11,6 @@ import java.util.Map;
  * 贴图集数据。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public abstract class TextureAtlasData extends BaseObject {
     /**

@@ -19,7 +19,6 @@ import java.util.Objects;
  * 动画控制器，用来播放动画数据，管理动画状态。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see AnimationData
  * @see AnimationState
  */

@@ -4,7 +4,6 @@ package com.dragonbones.geom;
  * 2D 变换。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class Transform {
     /**

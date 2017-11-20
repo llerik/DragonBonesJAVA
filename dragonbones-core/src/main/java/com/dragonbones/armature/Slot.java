@@ -21,7 +21,6 @@ import org.jetbrains.annotations.Nullable;
  * 显示对象可以是普通的图片纹理，也可以是子骨架的显示容器，网格显示对象，还可以是自定义的其他显示对象。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see Armature
  * @see Bone
  * @see SlotData

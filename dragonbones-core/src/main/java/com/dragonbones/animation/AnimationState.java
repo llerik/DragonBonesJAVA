@@ -21,7 +21,6 @@ import java.util.Objects;
  * 动画状态，播放动画时产生，可以对每个播放的动画进行更细致的控制和调节。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see Animation
  * @see AnimationData
  */

@@ -5,7 +5,6 @@ import com.dragonbones.event.IEventDispatcher;
 
 /**
  * @version DragonBones 5.0
- * @language zh_CN
  * 骨架代理接口。
  */
 public interface IArmatureProxy extends IEventDispatcher {

@@ -19,7 +19,6 @@ import com.dragonbones.util.ShortArray;
  * Egret 插槽。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class GdxSlot extends Slot {
     /**

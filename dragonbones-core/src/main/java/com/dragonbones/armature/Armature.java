@@ -23,7 +23,6 @@ import java.util.function.Consumer;
  * 骨架，是骨骼动画系统的核心，由显示容器、骨骼、插槽、动画、事件系统构成。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see ArmatureData
  * @see Bone
  * @see Slot

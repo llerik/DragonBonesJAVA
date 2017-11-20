@@ -12,7 +12,6 @@ import java.util.Objects;
  * 皮肤数据。（通常一个骨架数据至少包含一个皮肤数据）
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class SkinData extends BaseObject {
     /**

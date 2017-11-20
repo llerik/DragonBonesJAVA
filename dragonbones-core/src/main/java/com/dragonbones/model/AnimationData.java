@@ -10,10 +10,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 动画数据。
+ * Animation data.
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class AnimationData extends BaseObject {
     /**
@@ -29,24 +28,21 @@ public class AnimationData extends BaseObject {
      */
     public int frameOffset; // FrameArray.
     /**
-     * 持续的帧数。 ([1~N])
+     * The number of continuous frames. ([1 ~ N])
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public int frameCount;
     /**
-     * 播放次数。 [0: 无限循环播放, [1~N]: 循环播放 N 次]
+     * Views. [0: infinite loop playback, [1 ~ N]: loop N times]
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public int playTimes;
     /**
-     * 持续时间。 (以秒为单位)
+     * duration. (In seconds)
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public float duration;
     /**
@@ -54,10 +50,9 @@ public class AnimationData extends BaseObject {
      */
     public float scale;
     /**
-     * 淡入时间。 (以秒为单位)
+     * Fade in time. (In seconds)
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public float fadeInTime;
     /**
@@ -65,10 +60,9 @@ public class AnimationData extends BaseObject {
      */
     public float cacheFrameRate;
     /**
-     * 数据名称。
+     * Data name.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public String name;
     /**

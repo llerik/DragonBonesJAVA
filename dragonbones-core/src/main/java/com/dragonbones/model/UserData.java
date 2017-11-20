@@ -9,7 +9,6 @@ import com.dragonbones.util.IntArray;
  * 自定义数据。
  *
  * @version DragonBones 5.0
- * @language zh_CN
  */
 public class UserData extends BaseObject {
     /**

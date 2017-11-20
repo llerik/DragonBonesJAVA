@@ -12,7 +12,6 @@ import org.jetbrains.annotations.Nullable;
  * 事件数据。
  *
  * @version DragonBones 4.5
- * @language zh_CN
  */
 public class EventObject extends BaseObject {
     /**

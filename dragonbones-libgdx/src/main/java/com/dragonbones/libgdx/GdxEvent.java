@@ -13,7 +13,6 @@ import org.jetbrains.annotations.Nullable;
  * Egret event.
  *
  * @version DragonBones 4.5
- * @language zh_CN
  */
 class GdxEvent extends EgretEvent {
     /**

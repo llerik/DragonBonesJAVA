@@ -11,7 +11,6 @@ import java.util.Map;
  * 基础对象。
  *
  * @version DragonBones 4.5
- * @language zh_CN
  */
 public abstract class BaseObject {
     private static int _hashCode = 0;

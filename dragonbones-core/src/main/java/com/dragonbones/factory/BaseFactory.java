@@ -23,7 +23,6 @@ import java.util.Objects;
  * Foundations of the skeleton of the factory. (Usually only need a global factory instance)
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see DragonBonesData
  * @see TextureAtlasData
  * @see ArmatureData

@@ -2,7 +2,6 @@ package com.dragonbones.core;
 
 /**
  * @version DragonBones 5.0
- * @language zh_CN
  * 包围盒类型。
  */
 public enum BoundingBoxType {

@@ -6,7 +6,6 @@ import com.dragonbones.util.FloatArray;
  * 2D 矩阵。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class Matrix {
     public float a, b, c, d, tx, ty;

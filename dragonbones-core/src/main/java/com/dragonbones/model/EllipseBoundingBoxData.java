@@ -8,7 +8,6 @@ import org.jetbrains.annotations.Nullable;
  * 椭圆边界框。
  *
  * @version DragonBones 5.1
- * @language zh_CN
  */
 public class EllipseBoundingBoxData extends BoundingBoxData {
     public static int ellipseIntersectsSegment(

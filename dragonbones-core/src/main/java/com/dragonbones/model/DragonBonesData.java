@@ -12,7 +12,6 @@ import java.util.Map;
  * 一个龙骨数据包含多个骨架数据。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see ArmatureData
  */
 public class DragonBonesData extends BaseObject {

@@ -2,7 +2,6 @@ package com.dragonbones.core;
 
 /**
  * @version DragonBones 4.5
- * @language zh_CN
  * 动画混合的淡出方式。
  */
 public enum AnimationFadeOutMode {

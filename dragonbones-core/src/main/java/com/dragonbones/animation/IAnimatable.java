@@ -5,7 +5,6 @@ package com.dragonbones.animation;
  * 任何实现了此接口的实例都可以加到 WorldClock 实例中，由 WorldClock 统一更新时间。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see WorldClock
  * @see com.dragonbones.armature.Armature
  */

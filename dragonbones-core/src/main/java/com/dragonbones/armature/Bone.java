@@ -14,7 +14,6 @@ import org.jetbrains.annotations.Nullable;
  * 骨骼在骨骼动画体系中是最重要的逻辑单元之一，负责动画中的平移旋转缩放的实现。
  *
  * @version DragonBones 3.0
- * @language zh_CN
  * @see BoneData
  * @see Armature
  * @see Slot

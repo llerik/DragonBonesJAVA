@@ -14,10 +14,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 骨架数据。
+ * Skeleton data.
  *
  * @version DragonBones 3.0
- * @language zh_CN
  */
 public class ArmatureData extends BaseObject {
     /**
@@ -25,10 +24,9 @@ public class ArmatureData extends BaseObject {
      */
     public ArmatureType type;
     /**
-     * 动画帧率。
+     * Animation frame rate.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public float frameRate;
     /**
@@ -40,10 +38,9 @@ public class ArmatureData extends BaseObject {
      */
     public float scale;
     /**
-     * 数据名称。
+     * Data name.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public String name;
     /**
@@ -51,10 +48,9 @@ public class ArmatureData extends BaseObject {
      */
     public final Rectangle aabb = new Rectangle();
     /**
-     * 所有动画数据名称。
+     * All animation data name.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public final Array<String> animationNames = new Array<>();
     /**
@@ -74,51 +70,45 @@ public class ArmatureData extends BaseObject {
      */
     public final Array<ActionData> actions = new Array<>();
     /**
-     * 所有骨骼数据。
+     * All skeletal data.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see BoneData
      */
     public final Map<String, BoneData> bones = new HashMap<>();
     /**
-     * 所有插槽数据。
+     * All slot data.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see SlotData
      */
     public final Map<String, SlotData> slots = new HashMap<>();
     /**
-     * 所有皮肤数据。
+     * All skin data.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see SkinData
      */
     public final Map<String, SkinData> skins = new HashMap<>();
     /**
-     * 所有动画数据。
+     * All animation data.
      *
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see AnimationData
      */
     public final Map<String, AnimationData> animations = new HashMap<>();
     /**
-     * 获取默认皮肤数据。
+     * Get the default skin data.
      *
      * @version DragonBones 4.5
-     * @language zh_CN
      * @see SkinData
      */
     @Nullable
     public SkinData defaultSkin;
     /**
-     * 获取默认动画数据。
+     * Get the default animation data.
      *
      * @version DragonBones 4.5
-     * @language zh_CN
      * @see AnimationData
      */
     @Nullable
@@ -134,10 +124,9 @@ public class ArmatureData extends BaseObject {
     @Nullable
     public UserData userData = null; // Initial value.
     /**
-     * 所属的龙骨数据。
+     * Belongs to the keel data.
      *
      * @version DragonBones 4.5
-     * @language zh_CN
      * @see DragonBonesData
      */
     public DragonBonesData parent;
@@ -367,7 +356,6 @@ public class ArmatureData extends BaseObject {
      *
      * @param name 数据名称。
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see BoneData
      */
     @Nullable
@@ -380,7 +368,6 @@ public class ArmatureData extends BaseObject {
      *
      * @param name 数据名称。
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see SlotData
      */
     @Nullable
@@ -393,7 +380,6 @@ public class ArmatureData extends BaseObject {
      *
      * @param name 数据名称。
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see SkinData
      */
     @Nullable
@@ -406,7 +392,6 @@ public class ArmatureData extends BaseObject {
      *
      * @param name 数据名称。
      * @version DragonBones 3.0
-     * @language zh_CN
      * @see AnimationData
      */
     @Nullable
