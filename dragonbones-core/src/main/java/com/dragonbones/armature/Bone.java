@@ -491,7 +491,7 @@ public class Bone extends TransformObject {
     /**
      * @see #boneData
      * @see BoneData#length
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public float getLength() {
         return this.boneData.length;
@@ -499,7 +499,7 @@ public class Bone extends TransformObject {
 
     /**
      * @see Armature#getSlot(String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public Slot getSlot() {

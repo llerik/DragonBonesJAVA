@@ -143,11 +143,11 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeDragonBonesData()
          */
         public dispose(): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.returnToPool();
         }
     }

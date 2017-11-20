@@ -273,7 +273,7 @@ public abstract class DataParser {
 
     /**
      * @see BaseFactory#parseDragonBonesData(Object, String, float)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public static DragonBonesData parseDragonBonesData(Object rawData) {
@@ -305,10 +305,10 @@ public abstract class DataParser {
 
     /**
      * @see BaseFactory#parseTextureAtlasData(Object, Object, String, float)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public static Map<String, Object> parseTextureAtlasData(Object rawData, float scale) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         Map<String, Object> textureAtlasData = new HashMap<String, Object>();
 
         ArrayBase<Object> subTextureList = getArray(rawData, DataParser.SUB_TEXTURE);

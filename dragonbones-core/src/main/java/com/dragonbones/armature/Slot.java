@@ -1040,7 +1040,7 @@ public abstract class Slot extends TransformObject {
 
     ///**
     // * @see #display
-    // * @deprecated 已废弃，请参考 @see
+    // * @deprecated Obsolete, please refer to @see
     // */
     //public Object getDisplay() {
     //    return this._display;
@@ -1048,7 +1048,7 @@ public abstract class Slot extends TransformObject {
 
     ///**
     // * @see #display
-    // * @deprecated 已废弃，请参考 @see
+    // * @deprecated Obsolete, please refer to @see
     // */
     //public void setDisplay(Object value) {
     //   this._display = value;

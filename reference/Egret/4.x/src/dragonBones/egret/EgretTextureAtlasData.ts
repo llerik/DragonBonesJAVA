@@ -89,16 +89,16 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeTextureAtlasData()
          */
         public dispose(): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.returnToPool();
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeTextureAtlasData()
          */
         public get texture() {

@@ -943,7 +943,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationData
          */
         public get clip(): AnimationData {

@@ -421,7 +421,7 @@ namespace dragonBones {
         private static _binaryDataParserInstance: BinaryDataParser = null as any;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         public static getInstance(): BinaryDataParser {

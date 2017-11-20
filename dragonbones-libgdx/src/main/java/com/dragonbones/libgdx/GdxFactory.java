@@ -197,10 +197,10 @@ public class GdxFactory extends BaseFactory {
 
     /**
      * @see BaseFactory#addDragonBonesData(DragonBonesData, String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void addSkeletonData(DragonBonesData dragonBonesData, @Nullable String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.addDragonBonesData(dragonBonesData, dragonBonesName);
     }
 
@@ -210,28 +210,28 @@ public class GdxFactory extends BaseFactory {
 
     /**
      * @see BaseFactory#getDragonBonesData(String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public DragonBonesData getSkeletonData(String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         return this.getDragonBonesData(dragonBonesName);
     }
 
     /**
      * @see BaseFactory#removeDragonBonesData(String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void removeSkeletonData(String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.removeDragonBonesData(dragonBonesName);
     }
 
     /**
      * @see BaseFactory#addTextureAtlasData(TextureAtlasData, String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void addTextureAtlas(TextureAtlasData textureAtlasData, @Nullable String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.addTextureAtlasData(textureAtlasData, dragonBonesName);
     }
 
@@ -241,29 +241,29 @@ public class GdxFactory extends BaseFactory {
 
     /**
      * @see BaseFactory#getTextureAtlasData(String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public Array<TextureAtlasData> getTextureAtlas(String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         return this.getTextureAtlasData(dragonBonesName);
     }
 
     /**
      * @see BaseFactory#removeTextureAtlasData(String, boolean)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void removeTextureAtlas(String dragonBonesName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.removeTextureAtlasData(dragonBonesName);
     }
 
     /**
      * @see BaseFactory#buildArmature(String)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public Armature buildFastArmature(String armatureName, @Nullable String dragonBonesName, @Nullable String skinName) {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         return this.buildArmature(armatureName, dragonBonesName, skinName, null);
     }
 
@@ -274,16 +274,16 @@ public class GdxFactory extends BaseFactory {
 
     /**
      * @see BaseFactory#clear()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void dispose() {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.clear();
     }
 
     /**
      * @see GdxFactory#getSoundEventManater()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public GdxArmatureDisplay getSoundEventManater() {
         return this.getSoundEventManager();

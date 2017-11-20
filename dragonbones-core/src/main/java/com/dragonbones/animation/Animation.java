@@ -783,7 +783,7 @@ public class Animation extends BaseObject {
      * @see #gotoAndPlayByTime(String, float, int)
      * @see #gotoAndPlayByFrame(String, int, int)
      * @see #gotoAndPlayByProgress(String, float, int)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public AnimationState gotoAndPlay(
@@ -819,7 +819,7 @@ public class Animation extends BaseObject {
      * @see #gotoAndStopByTime(String, float)
      * @see #gotoAndStopByFrame(String)
      * @see #gotoAndStopByProgress(String, float)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public @Nullable
     AnimationState gotoAndStop(String animationName, float time) {
@@ -829,7 +829,7 @@ public class Animation extends BaseObject {
     /**
      * @see #getAnimationNames()
      * @see #getAnimations()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public Array<String> getAnimationList() {
         return this._animationNames;
@@ -838,7 +838,7 @@ public class Animation extends BaseObject {
     /**
      * @see #getAnimationNames()
      * @see #getAnimations()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public Array<AnimationData> getAnimationDataList() {
         Array<AnimationData> list = new Array<>();

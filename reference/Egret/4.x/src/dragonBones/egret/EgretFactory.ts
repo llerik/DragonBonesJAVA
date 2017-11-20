@@ -150,79 +150,79 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#addDragonBonesData()
          */
         public addSkeletonData(dragonBonesData: DragonBonesData, dragonBonesName: string | null = null): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.addDragonBonesData(dragonBonesData, dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#getDragonBonesData()
          */
         public getSkeletonData(dragonBonesName: string) {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             return this.getDragonBonesData(dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeDragonBonesData()
          */
         public removeSkeletonData(dragonBonesName: string): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.removeDragonBonesData(dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#addTextureAtlasData()
          */
         public addTextureAtlas(textureAtlasData: TextureAtlasData, dragonBonesName: string | null = null): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.addTextureAtlasData(textureAtlasData, dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#getTextureAtlasData()
          */
         public getTextureAtlas(dragonBonesName: string) {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             return this.getTextureAtlasData(dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeTextureAtlasData()
          */
         public removeTextureAtlas(dragonBonesName: string): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.removeTextureAtlasData(dragonBonesName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#buildArmature()
          */
         public buildFastArmature(armatureName: string, dragonBonesName: string | null = null, skinName: string | null = null): FastArmature | null {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             return this.buildArmature(armatureName, dragonBonesName, skinName);
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#clear()
          */
         public dispose(): void {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.clear();
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EgretFactory#soundEventManager()
          */
         public get soundEventManater(): EgretArmatureDisplay {

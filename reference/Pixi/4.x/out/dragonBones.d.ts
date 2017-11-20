@@ -662,7 +662,7 @@ declare namespace dragonBones {
         getArmature(name: string): ArmatureData | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeDragonBonesData()
          */
         dispose(): void;
@@ -2059,37 +2059,37 @@ declare namespace dragonBones {
         readonly parent: Slot | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#replacedTexture
          */
         replaceTexture(texture: any): void;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         hasEventListener(type: EventStringType): boolean;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         addEventListener(type: EventStringType, listener: Function, target: any): void;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         removeEventListener(type: EventStringType, listener: Function, target: any): void;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #cacheFrameRate
          */
         enableAnimationCache(frameRate: number): void;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         getDisplay(): any;
@@ -2340,14 +2340,14 @@ declare namespace dragonBones {
         visible: boolean;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #boneData
          * @see #dragonBones.BoneData#length
          */
         readonly length: number;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#getSlot()
          */
         readonly slot: Slot | null;
@@ -2695,13 +2695,13 @@ declare namespace dragonBones {
         childArmature: Armature | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         getDisplay(): any;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         setDisplay(value: any): void;
@@ -3075,7 +3075,7 @@ declare namespace dragonBones {
         readonly lastAnimationState: AnimationState | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #play()
          * @see #fadeIn()
          * @see #gotoAndPlayByTime()
@@ -3085,7 +3085,7 @@ declare namespace dragonBones {
         gotoAndPlay(animationName: string, fadeInTime?: number, duration?: number, playTimes?: number, layer?: number, group?: string | null, fadeOutMode?: AnimationFadeOutMode, pauseFadeOut?: boolean, pauseFadeIn?: boolean): AnimationState | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #gotoAndStopByTime()
          * @see #gotoAndStopByFrame()
          * @see #gotoAndStopByProgress()
@@ -3093,14 +3093,14 @@ declare namespace dragonBones {
         gotoAndStop(animationName: string, time?: number): AnimationState | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationNames
          * @see #animations
          */
         readonly animationList: Array<string>;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationNames
          * @see #animations
          */
@@ -3383,7 +3383,7 @@ declare namespace dragonBones {
         currentTime: number;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationData
          */
         readonly clip: AnimationData;
@@ -3837,13 +3837,13 @@ declare namespace dragonBones {
         abstract parseTextureAtlasData(rawData: any, textureAtlasData: TextureAtlasData, scale: number): boolean;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         static parseDragonBonesData(rawData: any): DragonBonesData | null;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parsetTextureAtlasData()
          */
         static parseTextureAtlasData(rawData: any, scale?: number): any;
@@ -4035,7 +4035,7 @@ declare namespace dragonBones {
         private static _objectDataParserInstance;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         static getInstance(): ObjectDataParser;
@@ -4084,7 +4084,7 @@ declare namespace dragonBones {
         private static _binaryDataParserInstance;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         static getInstance(): BinaryDataParser;
@@ -4470,7 +4470,7 @@ declare namespace dragonBones {
         readonly animation: Animation;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#clock
          * @see dragonBones.PixiFactory#clock
          * @see dragonBones.Animation#timescale

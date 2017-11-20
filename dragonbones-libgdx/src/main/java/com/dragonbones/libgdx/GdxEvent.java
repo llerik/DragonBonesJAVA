@@ -30,7 +30,7 @@ class GdxEvent extends EgretEvent {
     /**
      * @see #getEventObject()
      * @see EventObject#animationState
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public String getAnimationName() {
         AnimationState animationState = this.getEventObject().animationState;
@@ -40,7 +40,7 @@ class GdxEvent extends EgretEvent {
     /**
      * @see #getEventObject()
      * @see EventObject#armature
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public Armature getArmature() {
         return this.getEventObject().armature;
@@ -49,7 +49,7 @@ class GdxEvent extends EgretEvent {
     /**
      * @see #getEventObject()
      * @see EventObject#bone
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public Bone getBone() {
@@ -59,7 +59,7 @@ class GdxEvent extends EgretEvent {
     /**
      * @see #getEventObject()
      * @see EventObject#slot
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public Slot getSlot() {
@@ -69,7 +69,7 @@ class GdxEvent extends EgretEvent {
     /**
      * @see #getEventObject()
      * @see EventObject#animationState
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     @Nullable
     public AnimationState getAnimationState() {
@@ -78,7 +78,7 @@ class GdxEvent extends EgretEvent {
 
     /**
      * @see EventObject#name
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public String getFrameLabel()
 
@@ -88,7 +88,7 @@ class GdxEvent extends EgretEvent {
 
     /**
      * @see EventObject#name
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public String getSound()
 
@@ -98,7 +98,7 @@ class GdxEvent extends EgretEvent {
 
     /**
      * @see #getAnimationName()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public String getMovementID()
 
@@ -107,79 +107,79 @@ class GdxEvent extends EgretEvent {
     }
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#START
      */
     public static EventStringType START =EventObject.START;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#LOOP_COMPLETE
      */
     public static EventStringType LOOP_COMPLETE =EventObject.LOOP_COMPLETE;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#COMPLETE
      */
     public static EventStringType COMPLETE =EventObject.COMPLETE;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FADE_IN
      */
     public static EventStringType FADE_IN =EventObject.FADE_IN;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FADE_IN_COMPLETE
      */
     public static EventStringType FADE_IN_COMPLETE =EventObject.FADE_IN_COMPLETE;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FADE_OUT
      */
     public static EventStringType FADE_OUT =EventObject.FADE_OUT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FADE_OUT_COMPLETE
      */
     public static EventStringType FADE_OUT_COMPLETE =EventObject.FADE_OUT_COMPLETE;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FRAME_EVENT
      */
     public static EventStringType FRAME_EVENT =EventObject.FRAME_EVENT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#SOUND_EVENT
      */
     public static EventStringType SOUND_EVENT =EventObject.SOUND_EVENT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FRAME_EVENT
      */
     public static EventStringType ANIMATION_FRAME_EVENT =EventObject.FRAME_EVENT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FRAME_EVENT
      */
     public static EventStringType BONE_FRAME_EVENT =EventObject.FRAME_EVENT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#FRAME_EVENT
      */
     public static EventStringType MOVEMENT_FRAME_EVENT =EventObject.FRAME_EVENT;
     /**
      * @deprecated
-     * 已废弃，请参考 @see
+     * Obsolete, please refer to @see
      * @see EventObject#SOUND_EVENT
      */
     public static final EventStringType SOUND =EventObject.SOUND_EVENT;

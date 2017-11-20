@@ -347,7 +347,7 @@ public class BinaryDataParser extends ObjectDataParser {
 
     /**
      * @see BaseFactory#parseDragonBonesData(Object, String, float)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public static BinaryDataParser getInstance() {
         if (BinaryDataParser._binaryDataParserInstance == null) {

@@ -478,7 +478,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #boneData
          * @see #dragonBones.BoneData#length
          */
@@ -487,7 +487,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#getSlot()
          */
         public get slot(): Slot | null {

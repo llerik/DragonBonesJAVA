@@ -977,7 +977,7 @@ public class AnimationState extends BaseObject {
 
     /**
      * @see #animationData
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public AnimationData getClip() {
         return this.animationData;

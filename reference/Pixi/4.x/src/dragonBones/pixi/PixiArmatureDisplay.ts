@@ -181,7 +181,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#clock
          * @see dragonBones.PixiFactory#clock
          * @see dragonBones.Animation#timescale

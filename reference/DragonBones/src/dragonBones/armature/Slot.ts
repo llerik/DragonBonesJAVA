@@ -987,7 +987,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         public getDisplay(): any {
@@ -995,7 +995,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         public setDisplay(value: any) {

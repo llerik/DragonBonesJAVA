@@ -890,7 +890,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     /**
      * @see Armature#setReplacedTexture(Object)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void replaceTexture(Object texture) {
         this.setReplacedTexture(texture);
@@ -898,7 +898,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     /**
      * @see Armature#getEventDispatcher()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public boolean hasEventListener(EventStringType type) {
         return this._proxy.hasEvent(type);
@@ -906,7 +906,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     /**
      * @see Armature#getEventDispatcher()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void addEventListener(EventStringType type, Consumer<Object> listener, Object target) {
         this._proxy.addEvent(type, listener, target);
@@ -914,7 +914,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     /**
      * @see Armature#getEventDispatcher()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void removeEventListener(EventStringType type, Consumer<Object> listener, Object target) {
         this._proxy.removeEvent(type, listener, target);
@@ -922,7 +922,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     /**
      * @see #setCacheFrameRate(float)
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void enableAnimationCache(float frameRate) {
         this.setCacheFrameRate(frameRate);
@@ -930,7 +930,7 @@ public class Armature extends BaseObject implements IAnimatable {
 
     ///**
     // * @deprecated
-    // * 已废弃，请参考 @see
+    // * Obsolete, please refer to @see
     // * @see #_display
     // */
     //@Override

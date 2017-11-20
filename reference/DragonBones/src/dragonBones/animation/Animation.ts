@@ -678,7 +678,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #play()
          * @see #fadeIn()
          * @see #gotoAndPlayByTime()
@@ -710,7 +710,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #gotoAndStopByTime()
          * @see #gotoAndStopByFrame()
          * @see #gotoAndStopByProgress()
@@ -720,7 +720,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationNames
          * @see #animations
          */
@@ -729,7 +729,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #animationNames
          * @see #animations
          */

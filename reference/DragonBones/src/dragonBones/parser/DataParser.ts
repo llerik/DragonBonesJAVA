@@ -253,7 +253,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         public static parseDragonBonesData(rawData: any): DragonBonesData | null {
@@ -266,11 +266,11 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parsetTextureAtlasData()
          */
         public static parseTextureAtlasData(rawData: any, scale: number = 1): any {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             const textureAtlasData = {} as any;
 
             const subTextureList = rawData[DataParser.SUB_TEXTURE];

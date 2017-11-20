@@ -791,7 +791,7 @@ namespace dragonBones {
 
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#replacedTexture
          */
         public replaceTexture(texture: any): void {
@@ -799,7 +799,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         public hasEventListener(type: EventStringType): boolean {
@@ -807,7 +807,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         public addEventListener(type: EventStringType, listener: Function, target: any): void {
@@ -815,7 +815,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         public removeEventListener(type: EventStringType, listener: Function, target: any): void {
@@ -823,7 +823,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #cacheFrameRate
          */
         public enableAnimationCache(frameRate: number): void {
@@ -831,7 +831,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         public getDisplay(): any {

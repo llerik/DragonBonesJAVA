@@ -190,7 +190,7 @@ class GdxArmatureDisplay extends EgretDisplayObjectContainer implements IArmatur
      * @see GdxFactory#getClock()
      * @see Animation#timeScale
      * @see Animation#stop()
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void advanceTimeBySelf(boolean on) {
         if (on) {

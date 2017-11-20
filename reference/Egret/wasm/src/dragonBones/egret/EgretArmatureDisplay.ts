@@ -16,7 +16,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#armature
          */
@@ -25,7 +25,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#bone
          */
@@ -34,7 +34,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#slot
          */
@@ -43,7 +43,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#animationState
          */
@@ -52,7 +52,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#animationState
          */
@@ -62,7 +62,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#name
          */
@@ -71,7 +71,7 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #eventObject
          * @see dragonBones.EventObject#name
          */
@@ -80,79 +80,79 @@ namespace dragonBones {
         }
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.START
          */
         public static START: string = EventObject.START;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.LOOP_COMPLETE
          */
         public static LOOP_COMPLETE: string = EventObject.LOOP_COMPLETE;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.COMPLETE
          */
         public static COMPLETE: string = EventObject.COMPLETE;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FADE_IN
          */
         public static FADE_IN: string = EventObject.FADE_IN;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FADE_IN_COMPLETE
          */
         public static FADE_IN_COMPLETE: string = EventObject.FADE_IN_COMPLETE;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FADE_OUT
          */
         public static FADE_OUT: string = EventObject.FADE_OUT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FADE_OUT_COMPLETE
          */
         public static FADE_OUT_COMPLETE: string = EventObject.FADE_OUT_COMPLETE;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FRAME_EVENT
          */
         public static FRAME_EVENT: string = EventObject.FRAME_EVENT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.SOUND_EVENT
          */
         public static SOUND_EVENT: string = EventObject.SOUND_EVENT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FRAME_EVENT
          */
         public static ANIMATION_FRAME_EVENT: string = EventObject.FRAME_EVENT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FRAME_EVENT
          */
         public static BONE_FRAME_EVENT: string = EventObject.FRAME_EVENT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.FRAME_EVENT
          */
         public static MOVEMENT_FRAME_EVENT: string = EventObject.FRAME_EVENT;
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.EventObject.SOUND_EVENT
          */
         public static SOUND: string = EventObject.SOUND_EVENT;

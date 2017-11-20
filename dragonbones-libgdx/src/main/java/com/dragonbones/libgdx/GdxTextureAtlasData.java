@@ -10,7 +10,7 @@ import com.dragonbones.util.Console;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Egret Атлас.
+ * Egret Atlas data.
  * @version DragonBones 3.0
  * @language zh_CN
  */
@@ -35,7 +35,7 @@ public class GdxTextureAtlasData extends TextureAtlasData {
         return BaseObject.borrowObject(GdxTextureData.class);
     }
     /**
-     * Egret Карта.
+     * Egret Stickers.
      * @version DragonBones 3.0
      * @language zh_CN
      */
@@ -95,16 +95,16 @@ public class GdxTextureAtlasData extends TextureAtlasData {
 
     /**
      * @deprecated
-     * Устаревший, пожалуйста, обратитесь к @see
+     * Obsolete, please refer to @see
      * @see BaseFactory#removeTextureAtlasData(String, boolean)
      */
     public void dispose() {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.returnToPool();
     }
     /**
      * @deprecated
-     * Устаревший, пожалуйста, обратитесь к @see
+     * Obsolete, please refer to @see
      * @see BaseFactory#removeTextureAtlasData(String, boolean)
      */
     public EgretTexture getTexture() {

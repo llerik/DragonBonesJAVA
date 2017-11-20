@@ -865,11 +865,11 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#removeDragonBonesData()
          */
         DragonBonesData.prototype.dispose = function () {
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             this.returnToPool();
         };
         return DragonBonesData;
@@ -3317,7 +3317,7 @@ var dragonBones;
         });
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#replacedTexture
          */
         Armature.prototype.replaceTexture = function (texture) {
@@ -3325,7 +3325,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         Armature.prototype.hasEventListener = function (type) {
@@ -3333,7 +3333,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         Armature.prototype.addEventListener = function (type, listener, target) {
@@ -3341,7 +3341,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#eventDispatcher
          */
         Armature.prototype.removeEventListener = function (type, listener, target) {
@@ -3349,7 +3349,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #cacheFrameRate
          */
         Armature.prototype.enableAnimationCache = function (frameRate) {
@@ -3357,7 +3357,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         Armature.prototype.getDisplay = function () {
@@ -3882,7 +3882,7 @@ var dragonBones;
         Object.defineProperty(Bone.prototype, "length", {
             /**
              * @deprecated
-             * 已废弃，请参考 @see
+             * Obsolete, please refer to @see
              * @see #boneData
              * @see #dragonBones.BoneData#length
              */
@@ -3895,7 +3895,7 @@ var dragonBones;
         Object.defineProperty(Bone.prototype, "slot", {
             /**
              * @deprecated
-             * 已废弃，请参考 @see
+             * Obsolete, please refer to @see
              * @see dragonBones.Armature#getSlot()
              */
             get: function () {
@@ -4694,7 +4694,7 @@ var dragonBones;
         });
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         Slot.prototype.getDisplay = function () {
@@ -4702,7 +4702,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #display
          */
         Slot.prototype.setDisplay = function (value) {
@@ -5676,7 +5676,7 @@ var dragonBones;
         });
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #play()
          * @see #fadeIn()
          * @see #gotoAndPlayByTime()
@@ -5710,7 +5710,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see #gotoAndStopByTime()
          * @see #gotoAndStopByFrame()
          * @see #gotoAndStopByProgress()
@@ -5722,7 +5722,7 @@ var dragonBones;
         Object.defineProperty(Animation.prototype, "animationList", {
             /**
              * @deprecated
-             * 已废弃，请参考 @see
+             * Obsolete, please refer to @see
              * @see #animationNames
              * @see #animations
              */
@@ -5735,7 +5735,7 @@ var dragonBones;
         Object.defineProperty(Animation.prototype, "animationDataList", {
             /**
              * @deprecated
-             * 已废弃，请参考 @see
+             * Obsolete, please refer to @see
              * @see #animationNames
              * @see #animations
              */
@@ -6556,7 +6556,7 @@ var dragonBones;
         Object.defineProperty(AnimationState.prototype, "clip", {
             /**
              * @deprecated
-             * 已废弃，请参考 @see
+             * Obsolete, please refer to @see
              * @see #animationData
              */
             get: function () {
@@ -7682,7 +7682,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         DataParser.parseDragonBonesData = function (rawData) {
@@ -7695,12 +7695,12 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parsetTextureAtlasData()
          */
         DataParser.parseTextureAtlasData = function (rawData, scale) {
             if (scale === void 0) { scale = 1; }
-            console.warn("已废弃，请参考 @see");
+            console.warn("Obsolete, please refer to @see");
             var textureAtlasData = {};
             var subTextureList = rawData[DataParser.SUB_TEXTURE];
             for (var i = 0, len = subTextureList.length; i < len; i++) {
@@ -9379,7 +9379,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         ObjectDataParser.getInstance = function () {
@@ -9761,7 +9761,7 @@ var dragonBones;
         };
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.BaseFactory#parseDragonBonesData()
          */
         BinaryDataParser.getInstance = function () {
@@ -10804,7 +10804,7 @@ var dragonBones;
         });
         /**
          * @deprecated
-         * 已废弃，请参考 @see
+         * Obsolete, please refer to @see
          * @see dragonBones.Armature#clock
          * @see dragonBones.PixiFactory#clock
          * @see dragonBones.Animation#timescale

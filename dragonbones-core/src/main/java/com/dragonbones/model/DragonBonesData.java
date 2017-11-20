@@ -157,10 +157,10 @@ public class DragonBonesData extends BaseObject {
     }
 
     /**
-     * @deprecated 已废弃，请参考 @see
+     * @deprecated Obsolete, please refer to @see
      */
     public void dispose() {
-        Console.warn("已废弃，请参考 @see");
+        Console.warn("Obsolete, please refer to @see");
         this.returnToPool();
     }
 }
