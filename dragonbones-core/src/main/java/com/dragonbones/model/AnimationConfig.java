@@ -18,179 +18,184 @@ import com.dragonbones.util.Array;
  */
 public class AnimationConfig extends BaseObject {
     /**
-     * 是否暂停淡出的动画。
+     * Whether to pause the faded animation.
      *
      * @default true
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public boolean pauseFadeOut;
+
     /**
-     * 淡出模式。
+     * Fade out mode.
      *
      * @default dragonBones.AnimationFadeOutMode.All
      * @version DragonBones 5.0
-     * @language zh_CN
      * @see AnimationFadeOutMode
+     *  
      */
     public AnimationFadeOutMode fadeOutMode;
+
     /**
-     * 淡出缓动方式。
+     * Fade easing mode.
      *
      * @default TweenType.Line
      * @version DragonBones 5.0
-     * @language zh_CN
      * @see TweenType
+     *  
      */
     public TweenType fadeOutTweenType;
+
     /**
-     * 淡出时间。 [-1: 与淡入时间同步, [0~N]: 淡出时间] (以秒为单位)
+     * Fade out time. [-1: Synchronize with fade-in time, [0 ~ N]: Fade-out time] (in seconds)
      *
      * @default -1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float fadeOutTime;
 
     /**
-     * 否能触发行为。
+     * Can trigger behavior.
      *
      * @default true
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public boolean actionEnabled;
+
     /**
-     * 是否以增加的方式混合。
+     * Whether or not to mix in an incremental manner.
      *
      * @default false
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public boolean additiveBlending;
+
     /**
-     * 是否对插槽的显示对象有控制权。
+     * Has control over the display object of the slot.
      *
      * @default true
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public boolean displayControl;
+
     /**
-     * 是否暂停淡入的动画，直到淡入过程结束。
+     * Whether to pause the fade-in animation until the fade-in process is over.
      *
      * @default true
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public boolean pauseFadeIn;
+
     /**
-     * 是否将没有动画的对象重置为初始值。
+     * Whether to reset the animated object to the initial value.
      *
      * @default true
      * @version DragonBones 5.1
      * @language zh_CN
+     *  
      */
     public boolean resetToPose;
+
     /**
-     * 淡入缓动方式。
+     * Fade in slow mode.
      *
      * @default TweenType.Line
      * @version DragonBones 5.0
-     * @language zh_CN
      * @see TweenType
      */
     public TweenType fadeInTweenType;
+
     /**
-     * 播放次数。 [-1: 使用动画数据默认值, 0: 无限循环播放, [1~N]: 循环播放 N 次]
+     * Views. [-1: Using movie data Default value, 0: infinite loop playback, [1 ~ N]: N times looping]
      *
      * @default -1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public int playTimes;
+
     /**
-     * 混合图层，图层高会优先获取混合权重。
+     * Mixed layers, layers will give priority to high mixing weight.
      *
      * @default 0
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float layer;
+
     /**
-     * 开始时间。 (以秒为单位)
+     * Starting time. (In seconds)
      *
      * @default 0
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float position;
+
     /**
-     * 持续时间。 [-1: 使用动画数据默认值, 0: 动画停止, (0~N]: 持续时间] (以秒为单位)
+     * duration. [-1: Using movie data Default, 0: Movie stopped, (0 ~ N]: Duration] (in seconds)
      *
      * @default -1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float duration;
+
     /**
-     * 播放速度。 [(-N~0): 倒转播放, 0: 停止播放, (0~1): 慢速播放, 1: 正常播放, (1~N): 快速播放]
+     * Play speed. [(-N ~ 0): Reverse Play, 0: Stop Play, (0 ~ 1): Slow Play, 1: Normal Play, (1 ~ N): Quick Play]
      *
      * @default 1
      * @version DragonBones 3.0
-     * @language zh_CN
      */
     public float timeScale;
+
     /**
-     * 淡入时间。 [-1: 使用动画数据默认值, [0~N]: 淡入时间] (以秒为单位)
+     * Fade in time. [-1: Using Animation Data Defaults, [0 ~ N]: Fade In Time] (in seconds)
      *
      * @default -1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float fadeInTime;
+
     /**
-     * 自动淡出时间。 [-1: 不自动淡出, [0~N]: 淡出时间] (以秒为单位)
+     * Automatically fade out the time. [-1: do not fade out automatically, [0 ~ N]: fade out time] (in seconds)
      *
      * @default -1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float autoFadeOutTime;
+
     /**
-     * 混合权重。
+     * Mixed weight.
      *
      * @default 1
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public float weight;
+
     /**
-     * 动画状态名。
+     * Animation status name.
      *
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public String name;
+
     /**
-     * 动画数据名。
+     * Animation data name.
      *
      * @version DragonBones 5.0
      * @language zh_CN
+     *  
      */
     public String animation;
+
     /**
-     * 混合组，用于动画状态编组，方便控制淡出。
+     * Mixed group, used for animation state grouping, convenient control fade out.
      *
      * @version DragonBones 5.0
-     * @language zh_CN
+     *  
      */
     public String group;
+
     /**
-     * 骨骼遮罩。
+     * Bone mask.
      *
      * @version DragonBones 5.0
-     * @language zh_CN
      */
     public final Array<String> boneMask = new Array<>();
 
